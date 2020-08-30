@@ -10,8 +10,7 @@
 #    docs.serverless.com
 #
 # Happy Coding!
-org: schadokar
-app: basic-sls-crud-node
+
 service: basic-sls-crud-service-node
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
