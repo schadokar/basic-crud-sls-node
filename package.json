@@ -1,0 +1,19 @@
+{
+  "name": "basic-sls-crud-node",
+  "version": "1.0.0",
+  "description": "Basic CRUD operation in serverless in nodejs.",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serverless",
+    "aws"
+  ],
+  "author": "Shubham Chadokar",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.738.0",
+    "uuid": "^8.3.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "Create Book Schema",
+  "required": ["title", "author"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Title",
+      "minLength": 3,
+      "maxLength": 50
+    },
+    "author": {
+      "title": "Author",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    }
+  }
+}
