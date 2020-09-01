@@ -70,6 +70,14 @@ Login to serverless account from serverless CLI
 serverless login
 ```
 
+**Connect with AWS**
+
+Open the app setting from the serverless dashboard. There is a 3 dots menu in the app card.
+
+Go to **stages** > Select **default** > Connect AWS
+
+You can create multiple stages according to the application environment.
+
 # Deploy the application
 
 To deploy the application run the below command
